@@ -6,3 +6,4 @@ channels:
 dependencies:
   - itkwidgets=0.21.1
   - simpleitk=1.2.3
+  - vtk=8.2.0
