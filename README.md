@@ -7,4 +7,4 @@ https://github.com/InsightSoftwareConsortium/itkwidgets
 
 Note:  I could only get the widget to properly display using Google Chrome
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dave3d/SimpleITKWidgets/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dave3d/SimpleITKWidgets/master?filepath=BarbellExample.ipynb)
