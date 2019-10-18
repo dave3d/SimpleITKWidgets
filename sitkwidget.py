@@ -7,6 +7,7 @@ import itkwidgets
 
 
 def itk_view_from_simpleitk(image):
+#  TBD: copy all the meta information from the SimpleITK image to the ITK image
   np_view = sitk.GetArrayViewFromImage(image)
   itk_view = itk.image_view_from_array(np_view)
   return itk_view
