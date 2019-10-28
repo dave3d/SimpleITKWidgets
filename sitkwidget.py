@@ -7,7 +7,7 @@ import itkwidgets
 
 
 def itk_view_from_simpleitk(image):
-
+  """Get a view of an ITK image from a SimpleITK image."""
   origin = image.GetOrigin()
   spacing = image.GetSpacing()
   direction = image.GetDirection()
@@ -35,5 +35,6 @@ def itk_view_from_simpleitk(image):
 
 
 def view(image, *args, **kwargs):
+  """Display a SimpleITK image using ITK Widgets."""
   itk_view = itk_view_from_simpleitk(image)
   return itkwidgets.view(itk_view, *args, **kwargs)
