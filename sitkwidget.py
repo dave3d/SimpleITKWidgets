@@ -1,5 +1,7 @@
 #! /usr/bin/env python
 
+"""This module is to display a SimpleITK image using ITK Widgets's volume renderer."""
+
 import SimpleITK as sitk
 import itk
 import numpy as np
